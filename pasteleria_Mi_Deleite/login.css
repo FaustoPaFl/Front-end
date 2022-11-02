@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-family: 'Poiret One', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+.loginButton:visited{
+    color: #fff;
+}
+
+.registerButton:visited{
+    color: #fff;
+}
+
+nav{
+    background-color: #be8df7;
+    padding: 10px;
+    /* display: grid;
+    gap: 1.5em;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.logo {
+    height: 80px;
+}
+
+.brand{
+    width: 300px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.navButtons {
+    width: 1250px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navButtons > input{
+    width: 800px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 70px;
+}
+
+.navButtons > button{
+    margin-right: 20px;
+    background-color: hsl(268, 90%, 71%);
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.nav-list > li{
+    margin-top: 20px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-height: 2vh;
+}
+
+.loginForm{
+    padding-top: 200px;
+}
+
+form{
+    text-align: center;
+    display: grid;
+    font-size: 3vh;
+    background-color: #aa63fcb6;
+    padding: 120px 90px;
+    border-radius: 10px;
+    width: 85vh;
+}
+
+form > input{
+    border: none;
+    border-radius: 40px;
+    height: 30px;
+    width: 50vh;
+    margin-left: 10vh;
+}
+
+form > a{
+    font-size: 1.8vh;
+}
+
+form > button{
+    width: 21vh;
+    border-radius: 20px;
+    border: none;
+    background-color: #ffffff;
+    margin-left: 180px;
+    padding: 5px;
+}
+
+.custom-shape-divider-bottom-1667352234 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1667352234 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 83px;
+}
+
+.custom-shape-divider-bottom-1667352234 .shape-fill {
+    fill: #AA63FC;
+}

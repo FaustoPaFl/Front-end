@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title{
+    font-family: 'Poiret One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.registerButton:visited{
+    color: #fff;
+}
+
+.loginButton:visited{
+    color: #fff;
+}
+
+nav{
+    background-color: #be8df7;
+    padding: 10px;
+    /* display: grid;
+    gap: 1.5em;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); */
+    position: fixed;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img.logo {
+    height: 80px;
+}
+
+.brand{
+    width: 300px;
+    font-size: 20px;
+    color: #fff;
+    padding-left: 20px;
+    margin-right: 50px;
+    padding-top: 10px;
+}
+
+.navButtons {
+    width: 1250px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.navButtons > input{
+    width: 800px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 70px;
+}
+
+.navButtons > button{
+    margin-right: 20px;
+    background-color: hsl(268, 90%, 71%);
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    color: #fff;
+    font-size: 15px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 15px;
+    width: 100%;
+}
+
+.nav-list > li{
+    margin-top: 20px;
+}
+
+.new{
+    padding-top: 170px;
+    text-align: center;
+    background: url("./Imgs/fall.png") no-repeat ;
+    background-size:cover;
+    padding-bottom: 100px;
+}
+h1.title {
+    margin-bottom: 10px;
+}
+
+.collection{
+    font-size: 10px;
+    padding-bottom: 20px;
+}
+
+.new > a{
+    width: 50px;
+}
+
+section.specials {
+    margin-top: 0px;
+}
+
+.specials{
+    width: 1720px;
+    height: 1200px;
+    background-image: url(./Imgs/Pasteles/Lavanda.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.specials-text{
+    background-color: hsla(0, 0%, 100%, 0.486);
+    margin-left: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    width: 550px;
+}
+
+.month{
+    display: flex;
+    background-image: url(./Imgs/papel.jpg);
+    height: 1000px;
+    justify-content: center;
+    background-attachment: fixed;
+
+}
+
+.month-header{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0 125px 455px;
+    color:  hsla(268, 89%, 71%, 0.87);
+    background-color:#fff;
+    width: 600px;
+}
+
+.month-card{
+    background-color: hsla(268, 89%, 71%, 0.87);
+    border-radius: 20px;
+    width: 450px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+
+}
+
+.month-img{
+    display: flex;
+    font-size: 15px;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.month-img > div > p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.month-button{
+    border: none;
+    border-radius: 20px;
+    padding: 9px;
+    font-size: 15px;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.social{
+    width: 50px;
+}
+
+footer{
+    padding: 20px 30px 0 30px;
+    background-color: #8e2efc;
+    font-size: 2.2vh;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 300px;
+    height: 200px;
+}
+
+footer > div{
+    text-align: left;
+}
+
+footer > div > ul{
+    padding-top: 7px;
+    padding-left: 0;
+    list-style: none;
+    font-size: 1.8vh;
+}
+
+.social-heading{
+    padding-bottom: 7px;
+}
+
+.associates{
+    width: 100px;
+}
