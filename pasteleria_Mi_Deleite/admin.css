@@ -113,20 +113,75 @@ button:hover{
 
 }
 
-.card{
+.card1{
     display: flex;
     flex-wrap: wrap;
     width: 500px;
     height: 200px;
-    background-color: #dec8f896;
+    background-color: #dfc9f896;
     margin: 15px;
     text-align: center;
     justify-content: center;
     border-radius: 5px;
+    background-image: url(./Imgs/waves.svg);
+}
+
+.card1:hover{
+    scale: 1.05;
+}
+
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    background-color: #dfc9f896;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-image: url(./Imgs/layered-waves-haikei.svg);
+}
+
+.card2:hover{
+    scale: 1.05;
+}
+
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    background-color: #dfc9f896;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-image: url(./Imgs/layered-waves-haikei1.svg);
+}
+
+.card3:hover{
+    scale: 1.05;
+}
+
+.card4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 200px;
+    background-color: #dfc9f896;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-image: url(./Imgs/layered-waves-haikei2.svg);
+}
+
+.card4:hover{
+    scale: 1.05;
 }
 
 .mainCardHeader{
-    background-color: #bf8df7ad;
     width: 500px;
     height: 50px;
     padding-top: 15px;
